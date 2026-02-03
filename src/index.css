@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-  body {
-      @apply font-sans text-stone-900 bg-background-light dark:bg-background-dark overflow-x-hidden;
+  html, body {
+      @apply font-sans text-stone-900 bg-background-light dark:bg-background-dark overflow-x-hidden w-full max-w-[100vw];
+      margin: 0;
+      padding: 0;
   }
 }
 

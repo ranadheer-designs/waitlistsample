@@ -49,7 +49,7 @@ export default function HowItWorks() {
             <Reveal delay={400}>
               <div className="relative rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-[0_32px_64px_-16px_rgba(249,115,22,0.12)] p-8">
                   <div className="flex items-center gap-4 mb-8 border-b border-stone-100 dark:border-stone-800 pb-6">
-                    <img src="/avatar_satya.png" alt="Satya Pichai" className="w-16 h-16 rounded-2xl object-cover" />
+                    <img src="./avatar_satya.png" alt="Satya Pichai" className="w-16 h-16 rounded-2xl object-cover" />
                     <div>
                       <h3 className="text-xl font-bold dark:text-white">Satya Pichai</h3>
                     <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-green-100 text-green-700 text-xs font-bold uppercase tracking-wider">

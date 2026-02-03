@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="grid md:grid-cols-4 gap-12 mb-16">
         <div className="col-span-1 md:col-span-2 space-y-6">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Froscel Logo" className="w-10 h-10 object-contain rounded-lg" />
+            <img src="./logo.png" alt="Froscel Logo" className="w-10 h-10 object-contain rounded-lg" />
             <span className="text-stone-900 dark:text-white font-black text-lg tracking-tight uppercase">Froscel</span>
           </div>
           <p className="text-stone-500 dark:text-stone-400 max-w-sm text-sm leading-relaxed">
