@@ -8,14 +8,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#f97316",
-        "accent": "#fbbf24",
-        "background-light": "#ffffff",
-        "background-dark": "#0c0a09",
-        "surface": "#fdfaf7"
+        "primary": "#4A72B2",
+        "sage": "#7A9E7E",
+        "warm-gray": "#71717A",
+        "soft-cream": "#FDFCF9",
+        "soft-green": "#F4F7F4",
+        "charcoal": "#2D3436"
       },
       fontFamily: {
-        "sans": ["'Plus Jakarta Sans'", "sans-serif"]
+        "display": ["'Plus Jakarta Sans'", "sans-serif"],
+        "body": ["'Plus Jakarta Sans'", "sans-serif"],
+        "serif": ["'Instrument Serif'", "serif"]
       }
     },
   },

@@ -53,7 +53,7 @@ export default function FeaturesGrid() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Reveal key={index} delay={index * 100}>
-              <div className="p-8 rounded-3xl bg-white/50 dark:bg-stone-900/50 border border-stone-200 dark:border-stone-800 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300 backdrop-blur-sm shadow-xl shadow-stone-200/20 dark:shadow-none">
+              <div className="p-8 rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300 shadow-xl shadow-stone-200/20 dark:shadow-none">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-100 to-amber-100 dark:from-stone-800 dark:to-stone-800 flex items-center justify-center mb-6">
                   <span className="material-symbols-outlined text-primary text-2xl">{feature.icon}</span>
                 </div>
